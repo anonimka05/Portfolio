@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <div name="footer" className=" h-20 text-2xl text-blue-700 bottom-0">
-      Footer
+    <div name="footer" className="p-4 text-2xl text-white text-center">
+      &copy; Musayeva Munisa
     </div>
   );
 }

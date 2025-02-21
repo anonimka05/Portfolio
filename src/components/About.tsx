@@ -12,14 +12,11 @@ function About() {
             <div className="text-gray-300 justify-center my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto ">
                 My name is Munisa Musayeva. I completed the Fullstack course at
-                Najot Ta'lim. I'm 19 years old and passionate about programming,
-                games, and more. I'm always eager to learn new technologies and
-                improve my skills.
+                Najot Ta'lim. I'm 19 years old and passionate about programming
+                and more. I'm always eager to learn new technologies and improve
+                my skills.
               </p>
               <br />
-              {/* <a href="/" className="flex justify-center">
-                <button className="btn-primary">Dowload-CV</button>
-              </a> */}
             </div>
           </div>
         </div>
