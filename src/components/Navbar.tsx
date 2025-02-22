@@ -72,16 +72,16 @@ const Navbar: React.FC = () => {
         </div>
 
         <div
-          className={`md:hidden text-gray-900 absolute w-2/3 h-screen px-7 py-2 font-medium bg-white top-0 duration-300 ${
+          className={`md:hidden text-gray-900 absolute w-2/4 h-screen px-7 py-2 font-medium bg-white top-0 duration-300 ${
             open ? "right-0" : "right-[-100%]"
           }`}
         >
-          <ul className="flex flex-col justify-center h-full gap-10 py-2 text-lg">
+          <ul className="flex flex-col justify-center  h-full gap-6 py-2 text-lg">
             {navList.map((item, id) => (
               <li onClick={() => setOpen(true)} className="px-6">
-                <Link key={id} to={item.path}>
+                <a key={id} href={item.path}>
                   {item.element}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
