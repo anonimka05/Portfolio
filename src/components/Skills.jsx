@@ -81,6 +81,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { RiNextjsLine } from "react-icons/ri";
 import { LuDatabase } from "react-icons/lu";
+import { TbBrandVite } from "react-icons/tb";
 
 const skills = [
   { icon: faHtml5, level: "HTML5" },
@@ -88,6 +89,7 @@ const skills = [
   { icon: faReact, level: "ReactJs" },
   { icon: faNodeJs, level: "NodeJs" },
   { icon: faJs, level: "JavaScript" },
+  { icon: TbBrandVite, level: "ViteJs" },
   { icon: LuDatabase, level: "Databases" },
   { icon: RiNextjsLine, level: "NextJs" },
 ];
