@@ -185,12 +185,12 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-10 px-4 text-white ">
-      <h3 className="text-4xl font-semibold text-center text-[#ff00d0]">
+      <h3 className="md:text-4xl text-2xl font-semibold text-center text-[#ff00d0]">
         Contact
       </h3>
       <div className="container flex flex-col lg:flex-row items-center justify-center gap-10 mt-8">
         <div className="border rounded-2xl p-6 w-full max-w-md text-center lg:max-w-sm">
-          <h2 className="text-3xl font-semibold">
+          <h2 className="md:text-3xl text-2xl font-semibold">
             Contact <span className="text-[#ff00d0]">me</span> for collaboration
           </h2>
           <div className="text-4xl flex justify-center space-x-4 mt-4">

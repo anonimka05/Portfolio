@@ -4,7 +4,7 @@ function About() {
   return (
     <section id="about" className=" text-white  py-10 px-3">
       <div className="text-center mt-8 cursor-pointer">
-        <h3 className="text-4xl font-semibold mt-center">
+        <h3 className="lg:text-4xl text-2xl font-semibold mt-center">
           About <span className="text-[#ff00d0]">Me</span>
         </h3>
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">

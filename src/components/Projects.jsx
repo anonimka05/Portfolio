@@ -32,7 +32,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-10 px-3 text-white">
       <div className="text-center">
-        <h3 className="text-4xl font-semibold">
+        <h3 className="md:text-4xl text-2xl font-semibold">
           <span className="text-[#ff00d0]">Projects</span>
         </h3>
       </div>

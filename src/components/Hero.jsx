@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="flex-1">
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-black dark:text-white font-bold">
-            <span className="text-[#ff00d0] md:text-6xl text-5xl right-20 ">
+            <span className="text-[#ff00d0] md:text-6xl text-4xl right-20 ">
               Hello!
               <br />
             </span>
