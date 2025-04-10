@@ -13,7 +13,7 @@ const Contact = () => {
     },
     {
       icon: <FaGithub />,
-      href: "https://github.com/anonimka05",
+      href: "https://github.com",
       alt: "GitHub",
     },
     {
